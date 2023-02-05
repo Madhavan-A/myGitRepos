@@ -1,0 +1,28 @@
+<!-- <div *ngIf="subjects.length > 2; then subject; else nosubject"></div>
+<ng-template #subject>The Subjects are {{subjects}}</ng-template>
+<ng-template #nosubject>No subjects</ng-template> -->
+
+<!-- <div [ngClass]="Madhavan ? 'Green' : 'Red'">Madhavan Achuthalingam</div>
+<button (click)="Madhavan = !Madhavan">click here</button> -->
+
+<!-- <button [ngStyle]="{'backgroundColor': Madhavan ? 'red' : 'blue',
+                    'color' : Madhavan ? 'black': 'black',
+                    'fontWeight' : Madhavan ? 'italic' : 'bold'}">Madhavan</button> -->
+
+                    <!-- <div *ngFor="let details of msg"><tr><td>{{details.name}}</td>
+                    <td>{{details.id}}</td><td>{{details.age}}</td></tr></div> -->
+                    <!-- <button (click)="sendmsg()">Click Click</button> -->
+                    <!-- <table><tr *ngFor="let data of studentsdata"><td>{{data.name}}</td></tr></table> -->
+<!-- 
+<div>{{Finddate}}</div>
+<p>{{Finddate| date | uppercase}}</p>
+<p>{{Finddate| date: "shortDate"}}</p>
+<p>{{Finddate| date: "dd/mm/yy"}}</p> -->
+
+<!-- <table border="2"><tr><th>name</th><th>age</th><th>gender</th></tr>
+<tr *ngFor="let dt of Staffs"><td>{{dt.name | ppipe: dt.Gender}}</td>
+    <td>{{dt.age}}</td>
+    <td>{{dt.Gender}}</td></tr></table> -->
+ <!-- <button (click)="add()">Add Details</button> <button (click)="remove()">Remove Details</button> -->
+
+ <input type="text" [(ngModel)]="value">{{value | ppipe}}
